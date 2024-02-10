@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import About from './About';
-
+// working dir path on local machine 
+// Desktop/ReactPractice/react-demo
 function App() {
   return (
     <div className="MyApp">
