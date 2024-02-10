@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import About from './About';
 
 function App() {
   return (
-    <div className="App">
+    <div className="MyApp">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+       {/* <About name="Ramesh" age ="24"/> */}
+       <About />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
